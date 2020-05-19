@@ -1,94 +1,91 @@
 @font-face{
 
-font-family: 'Montserrat';
+	font-family: 'Montserrat';
 
-src: url('fonts/Montserrat-Light.otf');
+	src: url('fonts/Montserrat-Light.otf');
 
-src: url('fonts/Montserrat-Light.ttf');
-font-weight: normal;
-font-style: normal;
+	src: url('fonts/Montserrat-Light.ttf');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face{
 
-font-family: 'Montserrat-Regular';
+	font-family: 'Montserrat-Regular';
 
-src: url('fonts/Montserrat-Regular.otf');
+	src: url('fonts/Montserrat-Regular.otf');
 
-src: url('fonts/Montserrat-Regular.ttf');
-font-weight: lighter;
-font-style: normal;
-}
-
-
-
-@font-face{
-
-font-family: 'MontserratSemiBold';
-
-src: url('fonts/Montserrat-SemiBold.otf');
-
-src: url('fonts/Montserrat-SemiBold.ttf');
-font-weight: bold;
-font-style: normal;
+	src: url('fonts/Montserrat-Regular.ttf');
+	font-weight: lighter;
+	font-style: normal;
 }
 
 
 
 @font-face{
 
-font-family: 'Montserrat-medium';
+	font-family: 'MontserratSemiBold';
 
-src: url('fonts/Montserrat-Medium.otf');
+	src: url('fonts/Montserrat-SemiBold.otf');
 
-src: url('fonts/Montserrat-Medium.ttf');
-font-weight: normal;
-font-style: normal;
+	src: url('fonts/Montserrat-SemiBold.ttf');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+
+@font-face{
+
+	font-family: 'Montserrat-medium';
+
+	src: url('fonts/Montserrat-Medium.otf');
+
+	src: url('fonts/Montserrat-Medium.ttf');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face{
 
-font-family: 'Montserrat-extra';
+	font-family: 'Montserrat-extra';
 
-src: url('fonts/Montserrat-ExtraBold.otf');
+	src: url('fonts/Montserrat-ExtraBold.otf');
 
-src: url('fonts/Montserrat-ExtraBold.ttf');
-font-weight: bold;
-font-style: normal;
+	src: url('fonts/Montserrat-ExtraBold.ttf');
+	font-weight: bold;
+	font-style: normal;
 }
 @font-face{
 
-font-family: 'OpenSans';
+	font-family: 'OpenSans';
 
-src: url('fonts/OpenSans-Regular.ttf');
+	src: url('fonts/OpenSans-Regular.ttf');
 
-font-weight: normal;
-font-style: normal;
+	font-weight: normal;
+	font-style: normal;
 }
 
 
 body {
- 
   margin: 0;
   padding: 0;
   font-family: "Montserrat",serif;
   font-size: 16px;
   line-height: 24px;
   color: #ffffff;
-
-
 }
 
 .container {
-  width: 1024px;
+  width:100%;
+  max-width: 1024px;
   height:718px;
   margin: auto auto;
-
   padding:0 0 ;
-
 }
 
 header .container {
+	width:100%;
 	position:relative;
   padding-top: 10px;
   padding-bottom:40px;
@@ -96,13 +93,12 @@ header .container {
   background-position: 0px 0px;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 .header-top{
     padding-left:36px;
 }
 .reference{
-padding-left:7px;
+	padding-left:7px;
 
 }
 .header-phone {
@@ -116,45 +112,45 @@ padding-left:7px;
   content: "";
 }
 ul{
-list-style: none;
-margin-left:-5px;
+	list-style: none;
+	margin-left:-5px;
 }
 ul li a{
-color:white;
-text-decoration: none;
-font-size:14px;
-font-weight: lighter;
-letter-spacing: 0px;
+	color:white;
+	text-decoration: none;
+	font-size:14px;
+	font-weight: lighter;
+	letter-spacing: 0px;
 }
 .logo{
 	float:left;
 }
 .main-menu{
-float:left;
-margin-top:27px;	
-width:739px;
+	float:left;
+	margin-top:27px;	
+	width:739px;
 }
 .dop-form{
-float:right;
-margin-right:60px;
-margin-top:-45px;	
-width:200px;
+	float:right;
+	margin-right:60px;
+	margin-top:-45px;	
+	width:200px;
 }
 .dop-form a{
-color:white;
-text-decoration: none;}
+	color:white;
+	text-decoration: none;}
 
 
 
 .drop-form{
-position:absolute;
-right:35px;
+	position:absolute;
+	right:35px;
 
-background: white;
-border-radius:5px 0 5px 5px;
-top:70px;
-margin-top:27px;	
-width:150px;
+	background: white;
+	border-radius:5px 0 5px 5px;
+	top:70px;
+	margin-top:27px;	
+	width:150px;
 }
 .hidden{
 	visibility: hidden;
@@ -168,18 +164,18 @@ width:150px;
 
 
 .to-prepod{
-border:2px solid #fe8057;
-border-radius:5px;
-padding:11px 20px;
-font-size: 10px;
-font-weight: 500;
-text-transform: uppercase;
+	border:2px solid #fe8057;
+	border-radius:5px;
+	padding:11px 20px;
+	font-size: 10px;
+	font-weight: 500;
+	text-transform: uppercase;
 }
 .to-prepod:hover{
-background-color: #fe8057;	
+	background-color: #fe8057;	
 }
 .reference:hover a{
-border-bottom:2px solid #fe8057;
+	border-bottom:2px solid #fe8057;
 
 }
 
@@ -188,7 +184,7 @@ border-bottom:2px solid #fe8057;
 	display:inline-block;
 }
 .dop-form ul {
-padding-left:12px;
+	padding-left:12px;
 }
 .dop-form ul li{
 	margin-right: 36px;
@@ -206,10 +202,10 @@ padding-left:12px;
 	letter-spacing: 1px;
 }
 .promo{
-position: relative;
-margin-left:470px;
-margin-top:115px;
-width:632px;
+
+	margin-left:470px;
+	margin-top:115px;
+
 }
 .promo-title{
 	font-family: "Montserrat-extra";
@@ -224,7 +220,7 @@ width:632px;
 .promo p{
 
 	font-family:"OpenSans";
-	margin-right: 100px;
+	margin-right: 50px;
 	color:#f1f1f1;
 	font-size: 14px;
 	margin-top:35px;
@@ -250,7 +246,7 @@ width:632px;
 
 
 .btn-header:hover{
-background-color:rgba(0,0,0,0);
+	background-color:rgba(0,0,0,0);
 
 }
 
@@ -260,30 +256,30 @@ section .container {
 
 }
 .btn-info{
-width:557px;
-margin-left:232px;
-margin-top:110px;	
-display:inline-block;
-color:#fe8057;
-font-family: "MontserratSemiBold",serif;
-font-weight: bold;
-font-size: 18px;
-line-height: auto;
-border:2px solid #fe8057;
-border-radius: 40px;
-padding:12px 0;
-text-align: center;
+	width:557px;
+	margin-left:232px;
+	margin-top:110px;	
+	display:inline-block;
+	color:#fe8057;
+	font-family: "MontserratSemiBold",serif;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: auto;
+	border:2px solid #fe8057;
+	border-radius: 40px;
+	padding:12px 0;
+	text-align: center;
 }
 
 section h2{
-color:#4e93e1;
-font-family: "Montserrat-medium",sans-serif;
-font-weight: normal;
-text-transform: uppercase;
-text-align: center;
-margin-top:108px;
-font-size: 24px;
-letter-spacing: 0.6px;
+	color:#4e93e1;
+	font-family: "Montserrat-medium",sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top:108px;
+	font-size: 24px;
+	letter-spacing: 0.6px;
 }
 .items{
 	margin:0 auto;
@@ -305,14 +301,14 @@ letter-spacing: 0.6px;
 
 
 .item-school p,.item-stud p,.item-ex-edu p{
-margin:0 auto;
-width:200px;
-line-height: auto;
+	margin:0 auto;
+	width:200px;
+	line-height: auto;
 
-text-align:center;
-font-family: "Montserrat-medium",sans-serif;
-font-weight: normal;
-font-size: 20px;
+	text-align:center;
+	font-family: "Montserrat-medium",sans-serif;
+	font-weight: normal;
+	font-size: 20px;
 }
 .item-stud{
 
@@ -350,11 +346,11 @@ font-size: 20px;
 	
 }
 .menu-icon span {
-  display: block;
-  transform: translate(0, 65px);
-  width: 100%;
-  height: 4px;
-  background-color: white;
+	  display: block;
+	  transform: translate(0, 65px);
+	  width: 100%;
+	  height: 4px;
+	  background-color: white;
 }
 
 .menu-icon span::before,
